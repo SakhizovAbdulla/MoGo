@@ -329,3 +329,47 @@ h1,h2,h3,h4,h5,h6{
     font-size: 14px;
     text-transform: uppercase;
 }
+.services{
+    display: flex;
+}
+.services__item{
+    flex: 1 1 0;
+    padding-left: 85px;
+    position: relative;
+    padding-right: 35px;
+
+}
+.services__icon{
+    position: absolute;
+    top: 0;
+    left: 28px;
+    z-index: 1;
+}
+.services__title{
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+    text-transform: uppercase;
+}
+.services__text{
+    font-size: 15px;
+    color: #999;
+}
+hr{
+
+}
+.devices{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+.devices__item{
+    display: block;
+}
+.devices__item--iphone{
+    position: absolute;
+    bottom: -80px;
+    right: 0;
+    z-index: 1;
+}
